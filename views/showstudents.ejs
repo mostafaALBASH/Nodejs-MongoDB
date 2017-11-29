@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+    <h1>show all students here</h1>
+    <% students.forEach(function(Student){ %>
+      <h2><%= Student.name.f_name + ' ' + Student.name.l_name + ' || math grade: ' + Student.grades.math_grade + ' || english grade: ' + Student.grades.english_grade %></h2>
+    <% }) %>
+    
+</body>
+</html>
